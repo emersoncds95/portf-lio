@@ -101,6 +101,9 @@ main{
 .conteudo-sobre{
     margin-top: 100px;
 }
+.texto-conteudo {
+    text-align: justify;
+}
 .texto-conteudo h3{
     font-size: 24px;
     font-weight: 600;
@@ -198,40 +201,24 @@ main{
     transition: 0.2s;
 }
 /*-----FOOTER-----*/
-footer{
+.contato{
     background-color: #4B93FF;
     color: white;
-    padding: 100px 0px;
-}
-.titulo-footer{
-    text-align: center;
-}
-.titulo-footer h3{
-    font-size: 30px;
     font-weight: 600;
-}
-.titulo-footer img{
-    margin-top: -10px;
-}
-.contato{
-    margin-top: 50px;
+    border-top: dotted 3px #ffffff;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 0px;
 }
-.centraliza-contato{
+.info-contato{
     display: flex;
-    justify-content: baseline;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
 }
-.centraliza-contato img{
-    margin-top: -15px;
+.emerson{
+    font-weight: 900;
 }
-.centraliza-contato p{
-    margin-left: 10px;
-}
-
-
 /*----------------------------------RESPONSIVE------------------------------------*/
 @media (max-width: 425px) {
     .conteudo-header h1{
@@ -262,6 +249,7 @@ footer{
     .titulo-sobre p{
         font-size: 16px;
     }
+    
     .texto-conteudo h3{
         font-size: 18px;
     }
