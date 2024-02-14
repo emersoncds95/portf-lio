@@ -57,7 +57,7 @@ nav{
 /*----MENU LATERAL-----*/
 aside{
     background-color: rgb(255, 255, 255);
-    width: 80px;
+    width: 60px;
     box-shadow: 0px 0px 10px 0px #ccc;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -310,8 +310,7 @@ main{
         font-size: 16px;
     }
     .contato{
-        text-align: ;
         flex-direction: column;
         align-items: center;
         padding-bottom: 80px;
-    };
+    }
