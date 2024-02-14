@@ -218,7 +218,10 @@ main{
 }
 .emerson{
     font-weight: 900;
+    display: inline-block;
+    color: white;
 }
+
 /*----------------------------------RESPONSIVE------------------------------------*/
 @media (max-width: 425px) {
     .conteudo-header h1{
@@ -311,5 +314,4 @@ main{
         flex-direction: column;
         align-items: center;
         padding-bottom: 80px;
-    }
-    
+    };
